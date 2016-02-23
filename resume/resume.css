@@ -10,6 +10,14 @@ header {
     color: white;
 }
 
+a.hover-me, a.hover-me:hover, a.hover-me:active {
+    transition: transform ease-in-out .3s;
+}
+
+a.hover-me:hover {    
+    transform: rotate(360deg) scale(1.2);
+}
+
 h1 {
     font-weight: 300;
 }
@@ -51,6 +59,7 @@ ul {
 .social-links-list > li {
     display: inline-block;
     vertical-align: top;
+    margin: 4px 0;
 }
 
 .social-links-list a {
@@ -63,6 +72,8 @@ ul {
     box-shadow: 0px 3px 0px #0066A0;
     box-sizing: border-box;
     border: 1px solid #0066A0;
+    margin-bottom:2px;
+    transition: background ease-in-out 0.2s;
 }
 
 .social-links-list a:hover {
@@ -71,6 +82,7 @@ ul {
 
 .social-links-list a:active {
     margin-top: 2px;
+    margin-bottom: 0px;
     box-shadow: 0px 1px 0px #0066A0;    
 }
 
@@ -79,4 +91,13 @@ ul {
     height: 92px;
     border: 1px solid white;
     padding: 1px;
+}
+
+dt {
+    font-weight: 500;
+}
+
+dd {
+    margin-left: 1em;
+    margin-bottom: 16px;
 }
