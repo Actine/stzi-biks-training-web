@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <style>
+        * {
+            margin: 0;
+        }
+        
+        html {
+            font-family: Roboto, "Helvetica LT Std", Arial, Helvetica, sans-serif;
+        }
+        
+        h1 {
+            font-weight: 900;
+        }
+        
+        dd {
+            margin-left: 0;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        td,
+        th {
+            border: 1px solid black;
+        }
+        
+        td.order {
+            width: 30px;
+        }
+        
+        p > * {
+            display: block;
+        }
+        
+        .column {
+            background: grey;
+            width: 50%;
+            float: left;
+            border: 5px solid red;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        
+        .column > p {
+            display: inline;
+        }
+        
+        br.clear {
+            clear: both;
+        }
+        
+        .button {
+            display: inline-block;
+            background-image: url("../photos/background+pattern+design+3.jpg"); 
+            background-size: 100px;
+            background-repeat: repeat;
+            padding: 10px;
+            border: 1px solid magenta;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Заголовок</h1>
+    
+    <a href="#" class="button">Кнопка</a>
+
+    <p>
+        <a href="/resume/index.html#contactMe" target="_blank">Зв’язатися зі мною</a></p>
+    
+    <ol>
+        <li>Білич</li>
+        <li>Вучкан</li>
+        <li>Завацький</li>
+    </ol>
+    
+    <ul>
+        <li>Картопля</li>
+        <li>Петрушка</li>
+        <li>Цибуля</li>
+    </ul>
+    
+    <dl>
+        <dt>Монітор</dt>
+        <dd>це графічний засіб виводу інформації</dd>
+        
+        <dt>Миша</dt>
+        <dd>це засіб вводу інформації</dd>
+    </dl>
+    
+    <table>
+        
+        
+        <thead>
+            <tr>
+                <th>№ п/п</th>
+                <th>Прізвище</th>
+                <th>Бал</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="order">1.</td>
+                <td>Білич Мартін</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td class="order" rowspan="2">2.</td>
+                <td>Вучкан Роман</td>
+                <td>95</td>
+            </tr>
+            <tr>
+                <td>Вучкан Роман (перездача)</td>
+                <td>100</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Середній бал:</td>
+                <td>95</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p>
+        Я текст
+        <strong>жирний</strong>,
+        <a href="#">Посилання</a>, <em>курсивний</em>,
+        <img src="../photos/IMG_3181.png" height="10px" /> dfkgdfkgb
+    </p>
+    <p>
+        Я текст
+    </p>
+    <p>
+        Я текст
+    </p>
+    <p>
+        Я текст
+    </p>
+    <div class="column">
+
+        <p>
+            Я текст 1
+        </p>
+        <p>
+            Я текст 1
+        </p>
+        <p>
+            Я текст 1
+        </p>
+        <p>
+            Я текст 1
+        </p>
+    </div>
+    <div class="column">
+
+        <p>
+            Я текст 1
+        </p>
+        <p>
+            Я текст 1
+        </p>
+        <p>
+            Я текст 1
+        </p>
+        <p>
+            Я текст 1
+        </p>
+    </div>
+    <div class="column">
+
+        <p>
+            Я текст 1
+        </p>
+        <p>
+            Я текст 1
+        </p>
+        <p>
+            Я текст 1
+        </p>
+        <p>
+            Я текст 1
+        </p>
+    </div>
+    
+    <br class="clear" />
+    
+    <div>
+        
+        <p>
+            Я текст 3
+        </p>
+        <p>
+            Я текст 3
+        </p>
+        <p>
+            Я текст 3
+        </p>
+        <p>
+            Я текст 3
+        </p>
+        <p>
+            Я текст 3
+        </p>
+        <p>
+            Я текст 3
+        </p>
+        <p>
+            Я текст 3
+        </p>
+    </div>
+    
+</body>
+
+</html>
